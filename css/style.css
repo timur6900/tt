@@ -233,3 +233,25 @@ color: #FFF;
 	font-weight: 400;
 	line-height: normal;
 }
+.form{
+	width: 600px;
+	margin: 0 auto;
+	
+}
+.main_form{
+	background-color:#3E3E3E; 
+	min-height: 67.75vh;
+}
+.ladel_form{
+	color: red;
+
+}
+.form-example{
+	width: 100px;
+	height: 100px;
+
+}
+.input_form{
+	width: 100px;
+	height: 75px;
+}

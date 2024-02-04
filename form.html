@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Заполните следующее поле</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">  
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>  
+	<link href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap" rel="stylesheet">
+</head>
+<body>
+	<header class="header">
+		<div class="container container_header">
+			<div class="logo__block">
+				<img class="logo" src="img/logo.png">
+				<span class="logo__text">Игры</span>
+			</div>
+			<nav class="nav">
+				<ul class="nav__list">
+					<li class="nav__item">Главная</li>
+					<li class="nav__item">Об игрe</li>
+					<li class="nav__item">Видео</li>
+					<li class="nav__item">Галерея</li>
+					<li class="nav__item">Автор</li>
+				</ul>
+			</nav>
+			<img class="exit" src="img/exit.png">
+		</div>
+	</header>
+	<main class="main_form">
+	<form action="" method="get" class="form">
+	  <div class="form-example">
+	    <label class="ladel_form" for="name">ваше имя: </label>
+	    <input class="input_form" type="text" name="name" id="name" required />
+	  </div>
+	  <div class="form-example">
+	    <label class="ladel_form" for="email">ваш email: </label>
+	    <input class="input_form" type="email" name="email" id="email" required />
+	  </div>
+	  <div class="form-example">
+	  	<label class="ladel_form" for="story">Твоя история:</label>
+		<textarea id="story" name="story" rows="5" cols="33">
+		</textarea>
+	    <button type="submit" value="Отправить!">
+	    	<a href="index.html">Перейти</a>
+	     </button>
+	</div>
+	</form>
+	</main>
+	<footer class="footer">
+		<div class="container container_footer">
+			<div class="footer__content">
+				<h3 class="footer__title">Разработчики Kefir!, Andrey Pryakhin</h3>
+				<p class="footer__text">&copy; 2023. Все права защищены.</p>
+			</div>
+			<ul class="footer__list">
+				<li class="footer__item">
+					<a href="https://web.telegram.org/k/#@bulkin_live" target=_blank class="footer__link">
+						<img src="img/tg.png" class="footer__img">
+					</a>
+				</li>
+				<li class="footer__item">
+					<a href="https://vk.com/opaokyn" target=_blank class="footer__link">
+						<img src="img/vk.png" class="footer__img">
+					</a>
+				</li>
+			</ul>
+		</div>
+	</footer>
+</body>
+</html>
